@@ -1,0 +1,100 @@
+body {
+
+  display: flex;
+  margin: 0px;
+
+
+}
+
+.heroImg{
+
+position: relative;
+width:40vh;
+height: 200vh;
+
+}
+
+.title{
+
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+color: white;
+top: 19.1%;
+height: 200px;
+width: 40%;
+font-size: 120px;
+
+
+}
+
+.credit{
+
+position: fixed;
+bottom: 10px;
+left: 15%;
+font-size: large;
+color: white;
+text-decoration: none;
+
+}
+
+.main {
+
+ --padding: 350px;
+ --link-color: blue;
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+ width: 60vw;
+
+}
+
+.disclaimerSignup{
+
+ margin-top: 150px;
+ padding-left:500px;
+ width: 47vw;
+ margin-bottom: 50px;
+
+}
+
+.disclaimerText{
+
+
+  font-size: 30px;
+  font-weight: 200px;
+}
+
+form{
+
+ padding-left: 500px;
+ 
+
+}
+
+fieldset > p {
+
+margin-bottom: 10px;
+
+
+}
+
+fieldset > * {
+
+display: flex;
+gap: 100px;
+
+
+}
+
+fieldset > * > *{
+
+display: flex;
+flex-direction: column;
+gap: 2px;
+padding: 35px;
+
+
+}
