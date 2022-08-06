@@ -98,3 +98,31 @@ padding: 35px;
 
 
 }
+
+input[type="submit"] {
+
+margin-left: var(--padding);
+margin-top: calc(var(--padding)/2);
+height: 60px;
+width: 300px;
+border-radius:10px;
+color: white;
+font-size: 20px;
+font-weight: 600;
+background-color: dodgerblue;
+box-shadow: 8px 2px 4px 2px;
+
+}
+
+.login{
+
+padding-left: 420px;
+
+}
+
+p{
+
+   font-size: 20px;
+   font-weight: 660;
+
+}
